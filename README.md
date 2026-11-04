@@ -1,8 +1,8 @@
 # GapResearch
 
-**Türkçe:** Akademik literatürü izlenebilir biçimde haritalamak, kanıtları eleştirel olarak sentezlemek ve savunulabilir araştırma boşlukları belirlemek için hazırlanmış bir yapay zekâ becerisi.
+**Türkçe:** GapResearch, akademik literatürü analiz etmek, çalışmalar arasındaki ortak temaları ve farklılıkları belirlemek, kanıta dayalı olası araştırma boşluklarını ortaya çıkarmak ve özgün araştırma soruları geliştirmek için tasarlanmış bir yapay zekâ becerisidir. Lisans, yüksek lisans ve doktora öğrencileri ile akademisyen ve araştırmacılara yöneliktir. Kaynak doğruluğunu, kanıtların izlenebilirliğini, araştırmacının akademik sorumluluğunu, şeffaflığı ve akademik etik ilkelerini gözetir. Yapay zekâ çıktılarının insan tarafından doğrulanmasını ve nihai akademik değerlendirmenin araştırmacı tarafından yapılmasını esas alır.
 
-**English:** An Agent Skills-compatible workflow for auditable academic literature mapping, critical evidence synthesis, and defensible research-gap analysis.
+**English:** GapResearch is an AI skill designed to analyze academic literature, identify common themes and differences across studies, surface evidence-based potential research gaps, and develop original research questions. It is intended for undergraduate, master's, and doctoral students, as well as academics and researchers. It emphasizes source verification, evidence traceability, researcher accountability, transparency, and academic integrity. It requires human verification of AI-generated outputs and keeps final scholarly judgment with the researcher.
 
 ## Dil seçenekleri
 

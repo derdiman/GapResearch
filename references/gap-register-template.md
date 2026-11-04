@@ -1,0 +1,23 @@
+# Candidate research-gap record
+
+- Gap ID:
+- Short label:
+- Gap category:
+- Exact, bounded gap claim:
+- Scope (field / population / context / period):
+- What is known:
+- What remains uncertain:
+- Supporting evidence (Study IDs + page/section):
+- Counterevidence / near-neighbour studies:
+- Search sources, dates and queries:
+- Why this matters:
+- Proposed study that could address it:
+- Theoretical contribution:
+- Methodological contribution:
+- Practical / policy relevance:
+- Feasibility and data access:
+- Ethical considerations:
+- Confidence: high / moderate / low / provisional
+- Why this confidence level:
+- What could falsify this gap:
+- Next verification steps:

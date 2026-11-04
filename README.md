@@ -21,7 +21,6 @@ English example: “Use the GapResearch skill to analyze these papers, synthesiz
 - `SKILL.md`: Türkçe iş akışı ve kalite gereklilikleri
 - `references/`: Türkçe çalışma çıkarım, boşluk kaydı ve rapor şablonları
 - `templates/`: Türkçe CSV kayıt tabloları
-- `en/`: İngilizce sürüm ve İngilizce destek dosyalarının tamamı
 
 ## Sınırlılıklar
 

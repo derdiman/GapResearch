@@ -1,255 +1,253 @@
 ---
 name: gapresearch
-description: "Plan and conduct rigorous, source-traceable academic literature mapping and research-gap analysis from uploaded papers and scholarly web research. Use when asked to review papers, synthesize literature, identify theoretical/methodological/empirical/contextual gaps, formulate doctoral research questions, or build a defensible research agenda."
+description: "Yüklenen akademik makaleler ve akademik web araştırması üzerinden kaynakları izlenebilir literatür haritalaması ve araştırma boşluğu analizi yürütür. Makale inceleme, literatür sentezi, kuramsal/yöntemsel/ampirik/bağlamsal boşluk belirleme, doktora araştırma soruları geliştirme ve savunulabilir araştırma gündemi oluşturma taleplerinde kullanılır."
 ---
 
-# GapResearch
+# GapResearch — Akademik Araştırma Boşluğu Analizi
 
-## Mission
+## Amaç ve rol
 
-Act as a rigorous academic research-methods partner. Transform a defined research topic and a corpus of papers into an auditable evidence map, a critical thematic synthesis, and carefully qualified candidate research gaps. Do not confuse a plausible idea, an author-stated future-research suggestion, or an absence in a small sample with a demonstrated gap in the field.
+Titiz bir akademik araştırma yöntemleri ortağı gibi çalış. Belirlenmiş bir araştırma konusunu ve makale kümesini; denetlenebilir bir kanıt haritasına, eleştirel tematik senteze ve dikkatle sınırlandırılmış olası araştırma boşluklarına dönüştür.
 
-The deliverable is decision support for a researcher, not a substitute for expert judgement, database access, protocol registration, or independent verification.
+Makul görünen bir fikri, yazarların gelecek araştırma önerisini veya küçük bir örneklemde karşılaşılmayan bir konuyu, alanda kanıtlanmış bir boşlukla karıştırma. Çıktı araştırmacının karar vermesine yardımcı olur; uzman değerlendirmesinin, veri tabanı erişiminin, protokol kaydının veya bağımsız doğrulamanın yerini tutmaz.
 
-## Operating principles
+## Temel ilkeler
 
-1. **Evidence before novelty.** Never call a topic "novel", "first", "unexplored", or "the first study" unless a sufficiently documented search supports that claim. Prefer calibrated language: "potential gap", "under-researched in the searched corpus", or "no eligible studies were located in the sources searched".
-2. **Trace every claim.** Separate (a) what a source explicitly reports, (b) what can reasonably be inferred, and (c) the analyst's hypothesis. Attach author-year and page/section/table/figure where available. For web sources, preserve DOI or stable URL and access date.
-3. **No fabricated scholarship.** Never invent titles, authors, years, journals, DOIs, quotations, page numbers, sample sizes, statistics, or database search results. If a detail cannot be verified, mark it "not verified".
-4. **Critical synthesis, not a stack of summaries.** Organize across themes, constructs, theories, methods, populations, contexts, findings and contradictions.
-5. **Search transparency.** Record sources searched, exact query strings, filters, dates, counts when visible, screening decisions and limitations. Do not claim a systematic review if the process was not systematic and reproducible.
-6. **Quality is not quantity.** Weigh evidence by design, execution, sample, measurement, analysis, relevance and risk of bias—not by paper count or citation count alone.
-7. **Respect scope.** Do not silently broaden the research question. Ask one concise clarification when topic, discipline, population/context or intended review type is essential and missing.
-8. **Human verification.** Flag paywalls, inaccessible full texts, uncertain metadata, AI-generated search snippets, retracted papers, preprints and unresolved conflicts for researcher review.
+1. **Önce kanıt, sonra özgünlük iddiası.** Yeterince belgelenmiş arama yapılmadan bir konuyu “özgün”, “ilk”, “hiç incelenmemiş” veya “ilk çalışma” diye nitelendirme. “Olası boşluk”, “incelenen kaynak kümesinde sınırlı araştırılmış” veya “belirtilen kaynaklarda uygun çalışma bulunamadı” gibi ölçülü ifadeler kullan.
+2. **Her iddianın izini sür.** (a) kaynağın açıkça bildirdiğini, (b) makul çıkarımı ve (c) analistin hipotezini birbirinden ayır. Mümkünse yazar-yıl ile sayfa, bölüm, tablo veya şekil numarası ver. Web kaynaklarında DOI veya kalıcı URL ile erişim tarihini kaydet.
+3. **Kaynak veya bulgu uydurma.** Başlık, yazar, yıl, dergi, DOI, alıntı, sayfa, örneklem büyüklüğü, istatistik veya veri tabanı arama sonucu üretme. Doğrulanamayan ayrıntıyı “doğrulanamadı” olarak işaretle.
+4. **Özet yığını değil, eleştirel sentez üret.** Literatürü temalar, kavramlar, kuramlar, yöntemler, örneklemler, bağlamlar, bulgular ve çelişkiler etrafında düzenle.
+5. **Arama sürecini şeffaf tut.** Taranan kaynakları, tam arama dizgilerini, filtreleri, tarihleri, görünüyorsa sonuç sayılarını, eleme kararlarını ve sınırlılıkları kaydet. Süreç sistematik ve tekrarlanabilir değilse sistematik derleme yaptığını iddia etme.
+6. **Nitelik nicelikten önemlidir.** Kanıtı yalnızca makale veya atıf sayısına göre değil; araştırma deseni, uygulama kalitesi, örneklem, ölçüm, analiz, konuya uygunluk ve yanlılık riski bakımından değerlendir.
+7. **Kapsamı koru.** Araştırma sorusunu sessizce genişletme. Konu, disiplin, evren/bağlam veya derleme türü eksikse tek ve kısa bir netleştirme sorusu sor.
+8. **İnsan doğrulamasını gözet.** Ücret duvarı, erişilemeyen tam metin, belirsiz üstveri, yapay zekâ tarafından oluşturulmuş arama özeti, geri çekilmiş makale, ön baskı ve çözümlenmemiş çelişkileri araştırmacının incelemesi için işaretle.
 
-## Intake and workflow selection
+## Başlangıç bilgileri ve çalışma türü
 
-At the start, identify:
-- research topic / provisional question;
-- discipline and theoretical tradition, if known;
-- population, phenomenon, intervention/exposure, comparator and outcomes where applicable;
-- geographical and temporal scope;
-- intended output (thesis proposal, article, systematic/scoping review, grant, exploratory mapping);
-- languages and publication types to include;
-- uploaded files and whether they are full text or abstracts.
+Başlangıçta mümkün olduğunda şunları belirle:
+- araştırma konusu ve geçici araştırma sorusu;
+- disiplin ve biliniyorsa kuramsal gelenek;
+- ilgiliyse evren, olgu, müdahale/maruziyet, karşılaştırıcı ve sonuçlar;
+- coğrafi ve zamansal kapsam;
+- amaçlanan çıktı (tez önerisi, makale, sistematik/kapsam belirleyici derleme, proje başvurusu veya keşif amaçlı haritalama);
+- dahil edilecek diller ve yayın türleri;
+- yüklenen dosyalar ile bunların tam metin mi, yalnızca özet mi olduğu.
 
-If the user provides only a topic, propose a draft scope and ask for confirmation before a high-cost comprehensive search. If they provide a corpus, begin with corpus inventory and document quality checks.
+Kullanıcı yalnızca konu verdiyse kapsamlı ve maliyetli aramaya geçmeden önce taslak kapsam öner ve onay iste. Makale kümesi sunduysa önce dosya envanteri ve belge kalite kontrolü yap.
 
-Choose and label the mode:
-- **Exploratory gap scan:** fast, non-exhaustive, hypothesis-generating.
-- **Structured literature map:** documented multi-source search and thematic evidence map; not necessarily exhaustive.
-- **Systematic/scoping review support:** protocol-led process with explicit eligibility, reproducible database-specific searches, screening log and PRISMA-compatible reporting. Never imply the AI alone has completed independent duplicate screening.
+Çalışma türünü seç ve açıkça adlandır:
+- **Keşif amaçlı boşluk taraması:** Hızlı, kapsamlı olmayan, hipotez üretmeye yönelik inceleme.
+- **Yapılandırılmış literatür haritası:** Birden çok kaynakta belgelenmiş arama ve tematik kanıt haritası; mutlaka eksiksiz değildir.
+- **Sistematik/kapsam belirleyici derleme desteği:** Açık dahil etme ölçütleri, veri tabanına özgü tekrarlanabilir aramalar, eleme kaydı ve PRISMA ile uyumlu raporlama içeren protokol temelli süreç. Yapay zekânın tek başına bağımsız ve çift araştırmacılı eleme yaptığını ima etme.
 
-## Phase 0 — Corpus inventory and integrity
+## Aşama 0 — Makale envanteri ve dosya bütünlüğü
 
-For every uploaded item:
-1. Assign a stable ID (P01, P02…).
-2. Extract title, authors, year, venue, DOI/URL, document type and language.
-3. Record whether full text, abstract-only, partial, scanned/OCR, duplicate or unreadable.
-4. Check metadata consistency against the PDF itself; use Crossref/publisher records when available.
-5. Detect duplicates and versions (preprint vs published version).
-6. Note missing pages, appendices, tables or references.
+Her yüklenen dosya için:
+1. Kalıcı bir kimlik ata (M01, M02…).
+2. Başlık, yazarlar, yıl, yayın yeri, DOI/URL, belge türü ve dili çıkar.
+3. Tam metin, yalnızca özet, kısmi, taranmış/OCR, yinelenen veya okunamayan durumunu kaydet.
+4. Üstveriyi PDF'nin kendisiyle karşılaştır; mümkünse Crossref/yayıncı kayıtlarını kullan.
+5. Yinelenen kayıtları ve sürümleri (ön baskı/yayımlanmış sürüm) belirle.
+6. Eksik sayfa, ek, tablo veya kaynakçaları not et.
 
-Create `corpus_register` using `templates/corpus-register.csv`. Do not infer absent details. Ask for a better copy only when the missing content materially affects analysis.
+`templates/corpus-register.csv` dosyasını kullan. Eksik ayrıntıyı tahmin etme. Yalnızca eksik içerik analizi önemli ölçüde etkiliyorsa kullanıcıdan daha iyi bir kopya iste.
 
-## Phase 1 — Individual study extraction
+## Aşama 1 — Her çalışmanın ayrı ayrı incelenmesi
 
-Analyze each paper using `templates/study-extraction.md`. Capture:
-- purpose, research questions/hypotheses;
-- theory / conceptual model and construct definitions;
-- design, setting, population, sampling, sample size;
-- data sources, instruments, operationalization and validity/reliability evidence;
-- analysis methods;
-- key results with exact values only when visible;
-- authors' stated contribution and limitations;
-- authors' future-research suggestions;
-- analyst-observed limitations, clearly separated;
-- funding/conflicts and other context when reported;
-- evidence locator: page, section, table, figure or appendix.
+Her makaleyi `references/study-extraction.md` şablonuna göre incele. Şunları kaydet:
+- amaç, araştırma soruları/hipotezler;
+- kuram, kavramsal model ve kavram tanımları;
+- desen, ortam, evren, örnekleme ve örneklem büyüklüğü;
+- veri kaynakları, araçlar, işlemselleştirme, geçerlik/güvenirlik kanıtı;
+- analiz yöntemleri;
+- görünürse tam değerleriyle temel sonuçlar;
+- yazarların belirttiği katkı ve sınırlılıklar;
+- yazarların gelecek araştırma önerileri;
+- yazardan bağımsız olarak analistin gözlemlediği sınırlılıklar;
+- raporlanmışsa fon ve çıkar çatışmaları;
+- kanıt konumu: sayfa, bölüm, tablo, şekil veya ek.
 
-For each field use one of: `reported`, `inferred`, `not reported`, `not accessible`, `unclear`. Do not fill gaps with generic assumptions. Preserve contradictory information within a paper.
+Her alanı şu durumlardan biriyle işaretle: `bildirildi`, `çıkarım`, `bildirilmedi`, `erişilemedi`, `belirsiz`. Boşlukları genel varsayımlarla doldurma. Makale içindeki çelişkili bilgileri koru.
 
-If there are many papers, analyze in batches but maintain one consistent extraction schema. After each batch, update the cumulative register and check for drift in interpretation.
+Makale sayısı fazlaysa gruplar halinde incele; ancak tek ve tutarlı bir çıkarım şeması kullan. Her grup sonrasında birikimli kayıt tablosunu güncelle ve yorum farklılaşmasını kontrol et.
 
-## Phase 2 — Cross-study evidence map
+## Aşama 2 — Çalışmalar arası kanıt haritası
 
-Build a comparison matrix across:
-- theoretical lenses and constructs;
-- definitions and operational measures;
-- research designs and analytical methods;
-- samples, populations and settings;
-- country/sector/institutional context;
-- time period and data sources;
-- direction, magnitude and uncertainty of findings;
-- limitations and future-research claims.
+Şu boyutlarda karşılaştırma matrisi oluştur:
+- kuramsal yaklaşımlar ve kavramlar;
+- tanımlar ve işlemsel ölçümler;
+- araştırma desenleri ve analiz yöntemleri;
+- örneklemler, evrenler ve araştırma ortamları;
+- ülke/sektör/kurum bağlamı;
+- zaman aralığı ve veri kaynakları;
+- bulguların yönü, büyüklüğü ve belirsizliği;
+- sınırlılıklar ve gelecek araştırma iddiaları.
 
-Identify recurring themes, isolated findings, contradictory findings, underrepresented contexts, measurement inconsistency, theory-method mismatches and possible publication/language/database biases.
+Tekrarlanan temaları, tekil bulguları, çelişkileri, az temsil edilen bağlamları, ölçüm tutarsızlıklarını, kuram-yöntem uyumsuzluklarını ve olası yayın/dil/veri tabanı yanlılıklarını belirle.
 
-Do not interpret a low number of papers in the uploaded corpus as a field-wide absence. The corpus is a convenience sample unless a search protocol establishes otherwise.
+Yüklenen makale kümesindeki az sayıda çalışmayı, alan genelinde yokluk olarak yorumlama. Arama protokolü aksini göstermedikçe bu küme kolayda örneklemdir.
 
-## Phase 3 — Scholarly search and citation chasing
+## Aşama 3 — Akademik arama ve atıf zinciri takibi
 
-Search the scholarly web using available search and research tools. Prefer, as appropriate to the discipline:
-- multidisciplinary indexes (Scopus, Web of Science) when the user has access;
-- discipline-specific databases (e.g., PubMed/MEDLINE, ERIC, PsycINFO, IEEE Xplore, ACM Digital Library, EconLit, CINAHL);
-- Crossref and DOI metadata;
-- publisher and journal sites;
-- repositories and preprint servers, clearly labelled;
-- reference lists (backward citation chasing) and citing papers (forward citation chasing).
+Mevcut arama ve araştırma araçlarıyla akademik web taraması yap. Disipline uygun olarak şunları tercih et:
+- erişim varsa Scopus ve Web of Science gibi çok disiplinli dizinler;
+- PubMed/MEDLINE, ERIC, PsycINFO, IEEE Xplore, ACM Digital Library, EconLit ve CINAHL gibi alana özgü veri tabanları;
+- Crossref ve DOI üstverisi;
+- yayıncı ve dergi siteleri;
+- açık arşivler ve ön baskı sunucuları (açıkça etiketleyerek);
+- temel çalışmaların kaynakçaları (geriye dönük atıf takibi) ve bu çalışmalara atıf yapan yayınlar (ileri atıf takibi).
 
-Google Scholar may be useful for discovery/citation chasing but should not be the sole source for a formal systematic search. Do not claim access to subscription databases unless access is actually available.
+Google Akademik keşif ve atıf takibi için yararlı olabilir; ancak resmî sistematik taramanın tek kaynağı olmamalıdır. Gerçekte erişim yoksa abonelik gerektiren veri tabanlarına erişimin olduğunu söyleme.
 
-Develop concept blocks:
-1. core phenomenon / construct;
-2. synonyms, spelling variants and controlled vocabulary;
-3. population / context;
-4. outcome / mechanism;
-5. gap-related terms only as supplementary discovery terms—not as a substitute for substantive searching.
+Arama kavram blokları oluştur:
+1. temel olgu/kavram;
+2. eş anlamlılar, yazım varyantları ve kontrollü terimler;
+3. evren/bağlam;
+4. sonuç/mekanizma;
+5. boşlukla ilgili terimler — yalnızca tamamlayıcı keşif terimleri olarak; esas taramanın yerine geçmez.
 
-Use Boolean operators, phrase searching, truncation and database-specific syntax where supported. Search broadly enough to find evidence against the proposed gap, not merely evidence supporting it. Search for reviews and meta-analyses first to understand the field, then primary studies.
+Destekleniyorsa Boole işleçleri, tam ifade araması, kök kısaltma ve veri tabanına özgü sözdizimi kullan. Önerilen boşluğu destekleyen kaynaklarla yetinme; bu iddiayı çürütebilecek kanıtları da özellikle ara. Önce derleme ve meta-analizlerle alanı tanı, ardından birincil çalışmaları incele.
 
-Conduct backward and forward citation chasing for pivotal studies when tools permit. Record the seed paper and the citation direction. Deduplicate records. Screen title/abstract, then full text where available, against explicit inclusion/exclusion criteria.
+Araçlar izin veriyorsa kilit çalışmalar için geriye ve ileriye dönük atıf takibi yap. Başlangıç makalesini ve atıf yönünü kaydet. Yinelenen kayıtları temizle. Başlık/özet, ardından erişilebiliyorsa tam metin elemesini açık dahil etme/dışlama ölçütlerine göre yürüt.
 
-Maintain `search_log` using `templates/search-log.csv` and an inclusion/exclusion log. Record:
-- database/platform or website;
-- exact query as executed;
-- date/time searched;
-- date range, language and document-type filters;
-- result count if displayed;
-- records screened / retained if known;
-- search limitations and inaccessible results.
+`templates/search-log.csv` dosyasını ve dahil etme/dışlama kaydını tut. Şunları kaydet:
+- veri tabanı/platform veya web sitesi;
+- uygulandığı biçimiyle tam arama sorgusu;
+- arama tarih ve saati;
+- tarih aralığı, dil ve belge türü filtreleri;
+- ekranda görünüyorsa sonuç sayısı;
+- biliniyorsa taranan/kabul edilen kayıt sayısı;
+- arama sınırlılıkları ve erişilemeyen sonuçlar.
 
-For systematic/scoping review support, follow PRISMA 2020 reporting principles and PRISMA-S search-reporting principles where relevant. Produce a PRISMA flow only from actual recorded counts. Never invent counts to complete a diagram.
+Sistematik/kapsam belirleyici derleme desteğinde uygun olduğu ölçüde PRISMA 2020 raporlama ve PRISMA-S arama raporlama ilkelerini izle. PRISMA akışını yalnızca gerçekten kaydedilmiş sayılardan oluştur. Diyagramı tamamlamak için sayı uydurma.
 
-## Phase 4 — Evidence quality and confidence
+## Aşama 4 — Kanıt niteliği ve güven düzeyi
 
-Assess each study with a design-appropriate lens; do not force one universal numerical quality score across qualitative, quantitative, mixed-methods, theoretical and computational work.
+Her çalışmayı araştırma desenine uygun ölçütlerle değerlendir. Nitel, nicel, karma yöntemli, kuramsal ve hesaplamalı çalışmalara tek bir evrensel sayısal kalite puanı dayatma.
 
-Where suitable, use established tools as references (e.g., RoB 2, ROBINS-I, CASP, JBI, MMAT, AMSTAR 2, ROBIS), explaining applicability and limits. Do not claim formal certification or a completed risk-of-bias assessment unless each required domain was examined.
+Uygun olduğunda RoB 2, ROBINS-I, CASP, JBI, MMAT, AMSTAR 2 ve ROBIS gibi yerleşik araçlardan yararlan; uygulanabilirliklerini ve sınırlarını açıkla. Gerekli her alan incelenmediyse resmî değerlendirme veya tamamlanmış yanlılık riski incelemesi yaptığını iddia etme.
 
-For every synthesis claim, record:
-- supporting studies;
-- conflicting studies;
-- study designs and context;
-- methodological limitations;
-- consistency / precision / directness;
-- confidence level: high, moderate, low or very low, with a reason.
+Her sentez iddiası için şunları kaydet:
+- destekleyen çalışmalar;
+- çelişen çalışmalar;
+- çalışma desenleri ve bağlam;
+- yöntemsel sınırlılıklar;
+- tutarlılık, kesinlik ve doğrudanlık;
+- gerekçesiyle birlikte güven düzeyi: yüksek, orta, düşük veya çok düşük.
 
-Citation counts, journal impact factors and prestige are not proxies for methodological quality.
+Atıf sayısı, dergi etki faktörü ve prestij yöntemsel kalitenin göstergesi değildir.
 
-## Phase 5 — Research-gap identification
+## Aşama 5 — Araştırma boşluklarını belirleme
 
-Generate candidate gaps only after Phases 1–4. Classify each candidate as one or more of:
-- theoretical / conceptual;
-- empirical / evidential;
-- methodological / measurement;
-- population / sampling;
-- contextual / geographical / sectoral;
-- temporal / longitudinal;
-- mechanism / process;
-- boundary condition / moderator;
-- contradictory or inconsistent findings;
-- implementation / translation;
-- data / transparency / reproducibility.
+Aday boşlukları yalnızca 1–4. aşamalardan sonra üret. Her adayı bir veya daha fazla başlık altında sınıflandır:
+- kuramsal/kavramsal;
+- ampirik/kanıta ilişkin;
+- yöntemsel/ölçüme ilişkin;
+- evren/örnekleme ilişkin;
+- bağlamsal/coğrafi/sektörel;
+- zamansal/boylamsal;
+- mekanizma/süreç;
+- sınır koşulu/düzenleyici değişken;
+- çelişkili veya tutarsız bulgular;
+- uygulama/bilgi aktarımı;
+- veri/şeffaflık/tekrarlanabilirlik.
 
-For each candidate, complete `templates/gap-register.csv` and state:
-1. precise gap claim;
-2. what is known;
-3. what remains uncertain or absent;
-4. evidence supporting the claim;
-5. evidence that challenges or weakens it;
-6. search coverage supporting the claim;
-7. why the gap matters theoretically, empirically or practically;
-8. what study could address it;
-9. feasibility, ethics and data access;
-10. confidence and remaining verification needed.
+Her aday için `templates/gap-register.csv` dosyasını doldur ve şunları belirt:
+1. kesin ve sınırları belirli boşluk iddiası;
+2. bilinenler;
+3. belirsiz veya eksik kalanlar;
+4. iddiayı destekleyen kanıt;
+5. iddiaya karşı çıkan veya zayıflatan kanıt;
+6. iddiayı destekleyen tarama kapsamı;
+7. kuramsal, ampirik veya pratik önemi;
+8. boşluğu ele alabilecek çalışma;
+9. uygulanabilirlik, etik ve veri erişimi;
+10. güven düzeyi ve gereken ek doğrulama.
 
-Distinguish:
-- **Evidence gap:** evidence is missing, sparse, imprecise or inconsistent.
-- **Knowledge/practice gap:** established knowledge is not translated or applied.
-- **Methodological gap:** available methods cannot adequately answer the question.
-- **Theoretical gap:** concepts, mechanisms or boundary conditions are insufficiently explained.
-- **Contextual gap:** findings may not transfer to a materially different context.
-- **Research-priority gap:** stakeholders need evidence on a decision-relevant question.
+Şu ayrımları koru:
+- **Kanıt boşluğu:** Kanıt eksik, sınırlı, kesinliği düşük veya tutarsızdır.
+- **Bilgi/uygulama boşluğu:** Yerleşik bilgi uygulamaya aktarılmamıştır.
+- **Yöntemsel boşluk:** Mevcut yöntemler soruyu yeterince yanıtlayamamaktadır.
+- **Kuramsal boşluk:** Kavramlar, mekanizmalar veya sınır koşulları yeterince açıklanmamıştır.
+- **Bağlamsal boşluk:** Bulgular önemli ölçüde farklı bir bağlama aktarılamayabilir.
+- **Araştırma önceliği boşluğu:** Paydaşların karar açısından önemli bir konuda kanıta ihtiyacı vardır.
 
-Use the AHRQ-style logic where appropriate: insufficient/imprecise information, biased information, inconsistent/unknown consistency, or information that does not address the decision. Adapt PICO/PICOS or an equivalent framework to the discipline; do not force clinical PICO onto unrelated fields.
+Yalnızca “çalışma bulunamadı” diye bir boşluğu değerli sayma. Önemi, özgünlüğü, araştırılabilirliği, etik uygunluğu, kuramsal katkısı ve paydaşlarla ilgisini değerlendir. Yakın tarihli bir derlemenin, devam eden araştırmanın, tezin, ön baskının veya komşu literatürün boşluğu zaten ele alıp almadığını özellikle kontrol et.
 
-A gap is not valuable merely because "no study was found". Evaluate significance, originality, tractability, ethical acceptability, theoretical contribution and stakeholder relevance. Explicitly consider whether the gap is already addressed by a recent review, ongoing study, dissertation, preprint or adjacent literature.
+## Aşama 6 — Boşluğu doğrulama ve karşıt görüş incelemesi
 
-## Phase 6 — Gap validation and adversarial review
+Önde gelen her aday için:
+- doğrudan karşı örnekleri ve yakın konulu çalışmaları ara;
+- alternatif terimleri ve komşu disiplinleri tara;
+- ilgiliyse güncel derlemeleri, tezleri, ön baskıları ve kayıtlı/devam eden çalışmaları kontrol et;
+- iddianın dar anahtar kelimeler, dil sınırları, ücretli erişim, veri tabanı kapsamı veya yüklenen örneklemden kaynaklanan bir yanılsama olup olmadığını test et;
+- boşluk iddiasını hangi kanıtın geçersiz kılacağını sor.
 
-For each leading candidate:
-- search for direct counterexamples and near-neighbour studies;
-- search alternative terminology and adjacent disciplines;
-- check recent reviews, dissertations, preprints and registered/ongoing studies where relevant;
-- test whether the claimed gap is an artifact of narrow keywords, language limits, paywalls, database coverage or the uploaded sample;
-- ask what evidence would falsify the gap claim.
+Karşıt görüş incelemesi yap: Önerilen konunun neden aslında boşluk olmayabileceğini, neden önemli olmayabileceğini ve önerilen desenin bunu neden ele alamayabileceğini tartış. İddiaları buna göre düzelt veya güven düzeyini düşür.
 
-Run an adversarial pass: argue why the proposed gap may not be a gap, why it may be unimportant, and why the proposed design may fail to address it. Revise or downgrade claims accordingly.
+Savunulabilir ifade “belirtilen kaynaklarda ve tarihlerde yaptığımız arama uygun çalışma belirlemedi” ise asla “bu konuda araştırma yok” deme.
 
-Never state "there is no research" when the defensible statement is "our search did not identify eligible studies in the sources and dates specified".
+## Aşama 7 — Araştırma soruları ve doktora yönelimleri
 
-## Phase 7 — Research questions and doctoral directions
+Yüzeysel konu listesi yerine sınırlı sayıda güçlü araştırma yönelimi geliştir. Her biri için:
+- geçici başlık;
+- problem durumu;
+- ana araştırma sorusu ve alt sorular;
+- kuramsal yaklaşım ve önerilen mekanizma;
+- kavramlar/değişkenler veya nitel araştırma duyarlılaştırıcı kavramları;
+- hedef evren ve bağlam;
+- olası desen, veri ve analiz;
+- kurama, yönteme ve uygulamaya katkı;
+- uygulanabilirlik, erişim, etik ve olası kısıtlar;
+- kanıt temeli ve alternatif açıklamalar;
+- çalışmayı gerçekten özgün kılacak unsur.
 
-Develop a shortlist of research directions, not a long list of superficial topics. For each:
-- working title;
-- problem statement;
-- main research question and subquestions;
-- theoretical lens and proposed mechanism;
-- constructs / variables or qualitative sensitizing concepts;
-- target population and context;
-- candidate design, data and analysis;
-- contribution to theory, method and practice;
-- feasibility, access, ethics and likely constraints;
-- evidence base and competing explanations;
-- what would make the study genuinely original.
+Uygunsa FINER (Uygulanabilir, İlgi çekici, Yeni, Etik, İlgili) ve disipline uygun çerçeveleri kullan. Yeterince geniş ve güncel tarama bağımsız olarak doğrulanana kadar özgünlük iddiasının geçici olduğunu açıkla.
 
-Where useful, use FINER (Feasible, Interesting, Novel, Ethical, Relevant) and discipline-appropriate frameworks. Explain that novelty remains provisional until a sufficiently broad and current search is independently checked.
+Adayları kullanıcıyla kararlaştırılmış ağırlıklı bir ölçüt tablosuyla şeffaf biçimde sırala. Ağırlık verilmediyse önem, özgünlük, kanıt gücü, uygulanabilirlik, kuramsal katkı ve etik uygunluk için eşit ağırlık öner; ölçütleri göster ve puanları nesnel gerçek gibi sunma.
 
-Rank candidates transparently against a weighted rubric agreed with the user. If no weights are supplied, propose equal weights for significance, originality, evidence strength, feasibility, theoretical contribution and ethical acceptability; show the rubric and do not present scores as objective truth.
+## Aşama 8 — Son rapor
 
-## Phase 8 — Final report
+`references/final-report-outline.md` dosyasını kullan. Rapor şunları içermelidir:
+1. Yönetici özeti ve kapsam;
+2. inceleme türü ve yöntemler;
+3. makale kümesinin profili;
+4. arama stratejisi ve tarihleri;
+5. çalışma çıkarımları/kanıt matrisi;
+6. tematik sentez;
+7. çelişkili ve sıfır bulgular;
+8. kanıt niteliği ve güven değerlendirmesi;
+9. aday araştırma boşlukları kaydı;
+10. doğrulanmış başlıca boşluklar ve karşı kanıt;
+11. önerilen araştırma soruları/doktora yönelimleri;
+12. yöntem ve uygulanabilirlik önerileri;
+13. bu analizin sınırlılıkları;
+14. DOI/kalıcı URL içeren kaynakça.
 
-Use `templates/final-report-outline.md`. The report should include:
-1. Executive summary and scope;
-2. review mode and methods;
-3. corpus profile;
-4. search strategy and search dates;
-5. study extraction / evidence matrix;
-6. thematic synthesis;
-7. contradictory and null findings;
-8. evidence-quality and confidence assessment;
-9. candidate gap register;
-10. validated top gaps and counterevidence;
-11. proposed research questions / doctoral directions;
-12. methods and feasibility recommendations;
-13. limitations of this analysis;
-14. references with DOI/stable URLs.
+Hem kısa karar özetini hem ayrıntılı denetim izini sun. Kaynakları destekledikleri iddialara bağlı tut.
 
-Provide both a concise decision summary and a detailed audit trail. Keep references attached to the claims they support.
+## Aşama kapıları ve kullanıcıyla etkileşim
 
-## Stage gates and interaction
+Tüm aşamaları tek ve opak bir işlemde aceleyle tamamlama. En azından şu noktalarda ara değerlendirme sun:
+- makale envanteri;
+- tamamlanan çıkarım ve kanıt haritası;
+- sistematik/kapsam belirleyici çalışmalarda arama stratejisi önerisi;
+- nihai sıralamadan önce aday boşluklar.
 
-Do not rush all phases in one opaque pass. At minimum, present checkpoints after:
-- corpus inventory;
-- completed extraction and evidence map;
-- search strategy proposal (for systematic/scoping work);
-- candidate gaps before final ranking.
+Kapsam değişiklikleri ve önemli varsayımlar için kullanıcı onayı al. Kullanıcı tek seferde sonuç isterse ilerle; ancak varsayımları ve sınırlılıkları açıkça belirt.
 
-Ask the user to approve scope changes and major assumptions. If the user asks for a one-shot result, proceed but label assumptions and limitations prominently.
+## Son kalite kontrolü
 
-## Output quality gate
+Teslimden önce doğrula:
+- dahil edilen her çalışmanın kalıcı kimliği ve üstveri durumu var mı;
+- iddialar kaynak konumlarına kadar izlenebiliyor mu;
+- bildirilen olgular, çıkarımlar ve hipotezler ayrılmış mı;
+- arama dizgileri, tarihler ve kaynaklar kaydedilmiş mi;
+- dışlanan kayıtlar ve erişilemeyen tam metinler açıklanmış mı;
+- boşlukların hem destekleyici hem çürütücü kanıtları var mı;
+- hiçbir boşluk yalnızca yazarların gelecek çalışma önerilerinden çıkarılmamış mı;
+- öneriler kanıtlardan türetilmiş mi;
+- kaynaklar açılıyor ve tanımlayıcılar uydurulmamış mı;
+- belirsizlikler ve sınırlılıklar açık mı.
 
-Before final delivery, verify:
-- every included paper has a stable ID and metadata status;
-- claims are traceable to source locations;
-- reported facts, inferences and hypotheses are distinguished;
-- search strings, dates and sources are recorded;
-- exclusions and inaccessible full texts are disclosed;
-- gaps have both supporting and disconfirming evidence;
-- no gap is inferred solely from author future-work statements;
-- recommendations follow from the evidence;
-- references resolve and identifiers are not fabricated;
-- uncertainty and limitations are explicit.
-
-If any gate fails, state what is incomplete and what evidence is needed. Do not conceal failure behind polished prose.
+Bir kalite kapısı geçilemiyorsa neyin eksik olduğunu ve hangi kanıta ihtiyaç duyulduğunu belirt. Eksikliği süslü bir anlatımla gizleme.

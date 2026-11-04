@@ -1,15 +1,33 @@
 # GapResearch
 
-An Agent Skills-compatible academic literature mapping and research-gap analysis skill.
+**Türkçe:** Akademik literatürü izlenebilir biçimde haritalamak, kanıtları eleştirel olarak sentezlemek ve savunulabilir araştırma boşlukları belirlemek için hazırlanmış bir yapay zekâ becerisi.
 
-## Install/use
-- Keep the `GapResearch` folder intact.
-- Place it in the skills directory supported by your agent, or upload the folder/ZIP where custom skills are supported.
-- Invoke explicitly: `Use the GapResearch skill to analyze these papers and identify defensible research gaps.`
+**English:** An Agent Skills-compatible workflow for auditable academic literature mapping, critical evidence synthesis, and defensible research-gap analysis.
 
-## Contents
-- `SKILL.md`: workflow and quality requirements
-- `references/`: extraction, gap-register and report templates
-- `templates/`: CSV registers for corpus, search history and candidate gaps
+## Dil seçenekleri
 
-The skill does not itself grant access to Scopus, Web of Science, publisher subscriptions, or any model. Search coverage depends on connected tools and user access. A structured gap scan is not automatically a PRISMA-compliant systematic review.
+- Türkçe sürüm: kök dizindeki `SKILL.md`, `references/` ve `templates/`.
+- English version: `en/` dizini içindeki `SKILL.md`, `references/` ve `templates/`.
+
+## Kullanım
+
+`GapResearch` klasörünü desteklenen aracın beceri/skill dizinine yerleştirin veya özel becerileri destekleyen ortama yükleyin.
+
+Türkçe örnek komut: “GapResearch becerisini kullanarak yüklediğim makaleleri incele, literatürü sentezle ve kanıta dayalı araştırma boşluklarını belirle.”
+
+English example: “Use the GapResearch skill to analyze these papers, synthesize the literature, and identify defensible research gaps.”
+
+## Klasörler
+
+- `SKILL.md`: Türkçe iş akışı ve kalite gereklilikleri
+- `references/`: Türkçe çalışma çıkarım, boşluk kaydı ve rapor şablonları
+- `templates/`: Türkçe CSV kayıt tabloları
+- `en/`: İngilizce sürüm ve İngilizce destek dosyalarının tamamı
+
+## Sınırlılıklar
+
+Bu beceri Scopus, Web of Science, yayıncı abonelikleri veya herhangi bir modele kendiliğinden erişim sağlamaz. Tarama kapsamı, bağlı araçlara ve kullanıcının erişim haklarına bağlıdır. Yapılandırılmış bir boşluk taraması otomatik olarak PRISMA uyumlu sistematik derleme sayılmaz.
+
+## Lisans
+
+Bu depoya bir açık kaynak lisansı eklenmeden önce lisans tercihi belirlenmelidir.

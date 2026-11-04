@@ -7,7 +7,6 @@
 ## Dil seçenekleri
 
 - Türkçe sürüm: kök dizindeki `SKILL.md`, `references/` ve `templates/`.
-- English version: `en/` dizini içindeki `SKILL.md`, `references/` ve `templates/`.
 
 ## Kullanım
 

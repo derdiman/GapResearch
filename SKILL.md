@@ -1,13 +1,17 @@
 ---
 name: gapresearch
-description: "Yüklenen akademik makaleler ve akademik web araştırması üzerinden kaynakları izlenebilir literatür haritalaması ve araştırma boşluğu analizi yürütür. Makale inceleme, literatür sentezi, kuramsal/yöntemsel/ampirik/bağlamsal boşluk belirleme, doktora araştırma soruları geliştirme ve savunulabilir araştırma gündemi oluşturma taleplerinde kullanılır."
+description: "PDF veya hazır konu olmadan da bitirme projesi, yüksek lisans/doktora tezi, makale ve TÜBİTAK projesi için çalışma türüne uygun konu keşfi ve araştırma tasarımı yürütür. Yüklenen yayınlar ve akademik tarama üzerinden izlenebilir literatür sentezi, kanıta dayalı olası araştırma boşlukları ve uygulanabilir araştırma soruları geliştirir."
+metadata:
+  version: "1.1.0"
 ---
 
-# GapResearch — Akademik Araştırma Boşluğu Analizi
+# GapResearch — Konu Keşfi ve Akademik Araştırma Boşluğu Analizi
+
+Sürüm: 1.1.0
 
 ## Amaç ve rol
 
-Titiz bir akademik araştırma yöntemleri ortağı gibi çalış. Belirlenmiş bir araştırma konusunu ve makale kümesini; denetlenebilir bir kanıt haritasına, eleştirel tematik senteze ve dikkatle sınırlandırılmış olası araştırma boşluklarına dönüştür.
+Titiz bir akademik araştırma yöntemleri ortağı gibi çalış. Hazır konusu veya PDF dosyası olmayan araştırmacıyı çalışma türüne uygun, çeşitli ve uygulanabilir konu seçenekleriyle yönlendir. Konusu veya yayın kümesi olan araştırmacı için denetlenebilir kanıt haritası, eleştirel tematik sentez ve dikkatle sınırlandırılmış olası araştırma boşlukları geliştir. PDF yüklemek başlangıç koşulu değildir.
 
 Makul görünen bir fikri, yazarların gelecek araştırma önerisini veya küçük bir örneklemde karşılaşılmayan bir konuyu, alanda kanıtlanmış bir boşlukla karıştırma. Çıktı araştırmacının karar vermesine yardımcı olur; uzman değerlendirmesinin, veri tabanı erişiminin, protokol kaydının veya bağımsız doğrulamanın yerini tutmaz.
 
@@ -22,27 +26,29 @@ Makul görünen bir fikri, yazarların gelecek araştırma önerisini veya küç
 7. **Kapsamı koru.** Araştırma sorusunu sessizce genişletme. Konu, disiplin, evren/bağlam veya derleme türü eksikse tek ve kısa bir netleştirme sorusu sor.
 8. **İnsan doğrulamasını gözet.** Ücret duvarı, erişilemeyen tam metin, belirsiz üstveri, yapay zekâ tarafından oluşturulmuş arama özeti, geri çekilmiş makale, ön baskı ve çözümlenmemiş çelişkileri araştırmacının incelemesi için işaretle.
 
-## Başlangıç bilgileri ve çalışma türü
+## Başlangıç: hedef çıktı ve konu keşfi
 
-Başlangıçta mümkün olduğunda şunları belirle:
-- araştırma konusu ve geçici araştırma sorusu;
-- disiplin ve biliniyorsa kuramsal gelenek;
-- ilgiliyse evren, olgu, müdahale/maruziyet, karşılaştırıcı ve sonuçlar;
-- coğrafi ve zamansal kapsam;
-- amaçlanan çıktı (tez önerisi, makale, sistematik/kapsam belirleyici derleme, proje başvurusu veya keşif amaçlı haritalama);
-- dahil edilecek diller ve yayın türleri;
-- yüklenen dosyalar ile bunların tam metin mi, yalnızca özet mi olduğu.
+İlk olarak hedef çıktıyı seçenekli sor: (1) lisans bitirme projesi/tezi, (2) yüksek lisans tezi, (3) doktora tezi, (4) bilimsel makale, (5) TÜBİTAK projesi, (6) henüz karar vermedim. Bu adım PDF yükleyenler için de geçerlidir. Kullanıcı hedefini zaten açıkça belirtmişse tekrar sorma. Birden fazla hedef varsa ana hedefi belirle.
 
-Kullanıcı yalnızca konu verdiyse kapsamlı ve maliyetli aramaya geçmeden önce taslak kapsam öner ve onay iste. Makale kümesi sunduysa önce dosya envanteri ve belge kalite kontrolü yap.
+Başlangıç ve konu seçimi için [references/topic-discovery.md](references/topic-discovery.md) yönergelerini oku. Alanı, süreyi, ilgileri ve erişilebilir kaynakları kısa turlarla öğren; “bilmiyorum” yanıtına örnek ve seçeneklerle karşılık ver. Önce farklı konu ailelerinden geniş bir aday havuzu, sonra gerekçeli kısa liste sun. Konu seçildikten sonra araştırma tasarımını derinleştir. Bitirme projesine doktora düzeyinde özgünlük yükleme; makalede uluslararası literatürü, yüksek lisans/doktorada YÖK Tez ve diğer ülkelerin tez arşivlerini, TÜBİTAK'ta güncel resmi program koşullarını dikkate al.
 
-Çalışma türünü seç ve açıkça adlandır:
+Konu fikri ile kanıtlanmış araştırma boşluğunu ayır. Konu keşfinde henüz literatürle doğrulanmamış ön fikirler sunulabilir; bunları açıkça etiketle. Kanıta dayalı boşluk iddiası için aşağıdaki analiz ve doğrulama aşamalarını uygula.
+
+## İnceleme kapsamı ve modu
+
+Konu veya kısa liste netleşince araştırma sorusu, disiplin, ilgili evren/bağlam, coğrafi-zamansal kapsam, diller ve yayın türlerini belirle. Kapsamı çalışmanın düzeyi, süresi ve kaynaklarıyla orantılı tut. Rutin ön taramayı yürüt; kapsamlı veya maliyetli taramadan önce kapsamı kullanıcıyla netleştir.
+
+Aşağıdaki aşamalar tam boşluk analizi yolunu tanımlar. Konu keşfinde bütün aşamaları her aday için tam derinlikte yürütme. PDF yoksa dosya envanterini atla; ön taramayla bulunan kaynakları kaydet ve seçilen adaylarda incelemeyi derinleştir. Bitirme projesinde gerekli öğrenme ve uygulama temeli yeterliyse bir araştırma boşluğu bulmayı önkoşul yapma.
+
+İnceleme modunu hedef çıktıdan ayrı seç ve açıkça adlandır:
+
 - **Keşif amaçlı boşluk taraması:** Hızlı, kapsamlı olmayan, hipotez üretmeye yönelik inceleme.
 - **Yapılandırılmış literatür haritası:** Birden çok kaynakta belgelenmiş arama ve tematik kanıt haritası; mutlaka eksiksiz değildir.
 - **Sistematik/kapsam belirleyici derleme desteği:** Açık dahil etme ölçütleri, veri tabanına özgü tekrarlanabilir aramalar, eleme kaydı ve PRISMA ile uyumlu raporlama içeren protokol temelli süreç. Yapay zekânın tek başına bağımsız ve çift araştırmacılı eleme yaptığını ima etme.
 
 ## Aşama 0 — Makale envanteri ve dosya bütünlüğü
 
-Her yüklenen dosya için:
+Dosya yüklenmişse her dosya için; yalnız web kaynakları varsa bulunan kayıtları aynı kimlik ve üstveri mantığıyla kaydet:
 1. Kalıcı bir kimlik ata (M01, M02…).
 2. Başlık, yazarlar, yıl, yayın yeri, DOI/URL, belge türü ve dili çıkar.
 3. Tam metin, yalnızca özet, kısmi, taranmış/OCR, yinelenen veya okunamayan durumunu kaydet.
@@ -139,7 +145,7 @@ Atıf sayısı, dergi etki faktörü ve prestij yöntemsel kalitenin göstergesi
 
 ## Aşama 5 — Araştırma boşluklarını belirleme
 
-Aday boşlukları yalnızca 1–4. aşamalardan sonra üret. Her adayı bir veya daha fazla başlık altında sınıflandır:
+Kanıta dayalı aday boşluklarını 1–4. aşamalardan sonra üret. Başlangıçtaki konu havuzu bu aşama tamamlanmadan sunulabilir; doğrulanmamış fikirleri araştırma boşluğu olarak etiketleme. Her adayı bir veya daha fazla başlık altında sınıflandır:
 - kuramsal/kavramsal;
 - ampirik/kanıta ilişkin;
 - yöntemsel/ölçüme ilişkin;
@@ -187,9 +193,9 @@ Karşıt görüş incelemesi yap: Önerilen konunun neden aslında boşluk olmay
 
 Savunulabilir ifade “belirtilen kaynaklarda ve tarihlerde yaptığımız arama uygun çalışma belirlemedi” ise asla “bu konuda araştırma yok” deme.
 
-## Aşama 7 — Araştırma soruları ve doktora yönelimleri
+## Aşama 7 — Seçilen çalışma türüne uygun araştırma tasarımı
 
-Yüzeysel konu listesi yerine sınırlı sayıda güçlü araştırma yönelimi geliştir. Her biri için:
+Başlangıçta geniş aday havuzunu sunduktan sonra kullanıcıyla seçilen kısa listedeki yönelimleri derinleştir. Katkı, yöntem, süre ve çıktı beklentisini hedef çalışma türüne göre ayarla; aşağıdaki kuramsal alanları yalnız ilgiliyse kullan. Her biri için:
 - geçici başlık;
 - problem durumu;
 - ana araştırma sorusu ve alt sorular;
@@ -204,11 +210,11 @@ Yüzeysel konu listesi yerine sınırlı sayıda güçlü araştırma yönelimi 
 
 Uygunsa FINER (Uygulanabilir, İlgi çekici, Yeni, Etik, İlgili) ve disipline uygun çerçeveleri kullan. Yeterince geniş ve güncel tarama bağımsız olarak doğrulanana kadar özgünlük iddiasının geçici olduğunu açıkla.
 
-Adayları kullanıcıyla kararlaştırılmış ağırlıklı bir ölçüt tablosuyla şeffaf biçimde sırala. Ağırlık verilmediyse önem, özgünlük, kanıt gücü, uygulanabilirlik, kuramsal katkı ve etik uygunluk için eşit ağırlık öner; ölçütleri göster ve puanları nesnel gerçek gibi sunma.
+Adayları kullanıcıyla kararlaştırılmış ağırlıklı bir ölçüt tablosuyla şeffaf biçimde sırala. Ağırlık verilmediyse çalışma türüne uygun ölçütler öner: bitirme projesinde öğrenme ve mesleki beceri ile uygulanabilirliği, tez/makalede katkı ve kanıtı, TÜBİTAK projesinde resmi program ölçütlerini öne çıkar. Ölçüt ve gerekçeleri göster; puanları nesnel gerçek gibi sunma.
 
 ## Aşama 8 — Son rapor
 
-`references/final-report-outline.md` dosyasını kullan. Rapor şunları içermelidir:
+`references/final-report-outline.md` dosyasını kullan. Raporu çalışma türüne ve tamamlanan aşamalara göre ölçekle. Konu keşfi aşamasında geniş alternatif tablosu ve karar özeti yeterlidir; uygulanmamış analiz başlıklarını doldurma. Tam boşluk analizinde rapor şunları içermelidir:
 1. Yönetici özeti ve kapsam;
 2. inceleme türü ve yöntemler;
 3. makale kümesinin profili;
@@ -219,7 +225,7 @@ Adayları kullanıcıyla kararlaştırılmış ağırlıklı bir ölçüt tablos
 8. kanıt niteliği ve güven değerlendirmesi;
 9. aday araştırma boşlukları kaydı;
 10. doğrulanmış başlıca boşluklar ve karşı kanıt;
-11. önerilen araştırma soruları/doktora yönelimleri;
+11. çalışma türüne uygun araştırma soruları ve konu yönelimleri;
 12. yöntem ve uygulanabilirlik önerileri;
 13. bu analizin sınırlılıkları;
 14. DOI/kalıcı URL içeren kaynakça.
@@ -238,7 +244,11 @@ Kapsam değişiklikleri ve önemli varsayımlar için kullanıcı onayı al. Kul
 
 ## Son kalite kontrolü
 
-Teslimden önce doğrula:
+Teslimden önce, yürütülen yola uygun kontrolleri doğrula:
+- çalışma türü öğrenilmiş ve kapsam buna göre ayarlanmış mı;
+- PDF olmadan başlama yolu çalışıyor mu;
+- geniş alternatifler anlamlı biçimde farklı ve kaynak ihtiyacıyla karşılaştırılabilir mi;
+- ön fikirler ile kanıta dayalı boşluk iddiaları ayrılmış mı;
 - dahil edilen her çalışmanın kalıcı kimliği ve üstveri durumu var mı;
 - iddialar kaynak konumlarına kadar izlenebiliyor mu;
 - bildirilen olgular, çıkarımlar ve hipotezler ayrılmış mı;
